@@ -7,6 +7,7 @@ Collecting money becomes increasingly difficult during periods of recession, so 
     - The customer's account number
     - The customer's credit limit
     - The customer's current balance (i.e, the amount the customer owes the company).
+ 
  Your program should calculate and print the new credit limit for each customer and should determine (and print) which customers have current balances that exceed their new credits.
 
 # Exercise 3.17 - Mortgage Calculator
