@@ -3,7 +3,8 @@ C - How to program 8th edition by Paul Deitel and Harvey Deitel. Chapter 4, Exer
 
 # Exercise 4.17 - Calculating Credit Limits
 Collecting money becomes increasingly difficult during periods of recession, so companies may tighten their credit limits to prevent their accounts receivable (money owed to them) from becoming too large. In response to a prolonged recession, one company has cut it's customers' credit limits in half. Thus, if a particular customer had a credit limit of $2000, it's now $1000. If a customer had a credit limit of $5000, it's now $2500. Write a program that analyzes the credit status of three customers of this company. 
-- For each customer, you're given:
+
+For each customer, you're given:
     - The customer's account number
     - The customer's credit limit
     - The customer's current balance (i.e, the amount the customer owes the company).
@@ -23,6 +24,12 @@ An online retailer sells five products whose retail prices are shown in the foll
 | 3             | $9.98         | 
 | 4             | $4.49         |
 | 5             | $6.87         |
+
+Write a program that reads a series of pairs of numbers as follows:
+    - Product number
+    - Quantity sold for one day
+    
+Your program should use a switch statement to help determine the retail price for each product and should calculate and display the total retail value of all products sold lastweek.
 
 # Exercise 4.20 - Salary Calculator
 Develop a program that will determine the gross pay for each of several employees. The company pays “straight time” for the first 40 hours worked by each employee and pays “time-and-a-half” for all hours worked in excess of 40 hours. You’re given a list of the employees of the company, the number of hours each employee worked last week and the hourly rate of each employee. Your program should input this information for each employee and should determine and display the employee's gross pay.
