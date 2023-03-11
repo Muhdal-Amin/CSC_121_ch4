@@ -18,7 +18,7 @@ One interesting application of computers is drawing graphs and bar charts. Write
 An online retailer sells five products whose retail prices are shown in the following table:
 
 | Product Number| Retail Prices |
-| :------------ |:-------------:| 
+| :------------ | :------------:| 
 | 1             | $2.98         |
 | 2             | $4.50         |  
 | 3             | $9.98         | 
@@ -29,7 +29,28 @@ An online retailer sells five products whose retail prices are shown in the foll
     - Product number
     - Quantity sold for one day
     
-Your program should use a switch statement to help determine the retail price for each product and should calculate and display the total retail value of all products sold lastweek.
+Your program should use a switch statement to help determine the retail price for each product.
 
-# Exercise 4.20 - Salary Calculator
-Develop a program that will determine the gross pay for each of several employees. The company pays “straight time” for the first 40 hours worked by each employee and pays “time-and-a-half” for all hours worked in excess of 40 hours. You’re given a list of the employees of the company, the number of hours each employee worked last week and the hourly rate of each employee. Your program should input this information for each employee and should determine and display the employee's gross pay.
+Your program should calculate and display the total retail value of all products sold lastweek.
+
+# Exercise 4.20 - Truth Tables
+Complete the following truth tables by filling in each blank with 0 or 1.
+
+| Condition 1| Condition 2| Condition 1 && Condition 2|
+| :----------|:-----------| :-------------------------|
+| 0          | 0          | 0                         |
+| 0          | nonzero    | 0                         | 
+| nonzero    | 0          | 0                         |
+| nonzero    | nonzero    | nonzero                   |
+
+| Condition 1| Condition 2| Condition 1 || Condition 2|
+| :----------|:-----------| :-------------------------|
+| 0          | 0          | 0                         |
+| 0          | nonzero    | 1                         | 
+| nonzero    | 0          | 1                         |
+| nonzero    | nonzero    | nonzero                   |
+
+| Condition 1| !Condition 1|
+| :----------|:-----------| 
+| 0          | 1          |
+| nonzero    | 0          | 
