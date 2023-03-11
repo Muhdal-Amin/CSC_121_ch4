@@ -37,20 +37,20 @@ Your program should calculate and display the total retail value of all products
 Complete the following truth tables by filling in each blank with 0 or 1.
 
 | Condition 1| Condition 2| Condition 1 && Condition 2|
-| :----------|:-----------| :-------------------------|
+| :----------| :----------| :-------------------------|
 | 0          | 0          | 0                         |
 | 0          | nonzero    | 0                         | 
 | nonzero    | 0          | 0                         |
 | nonzero    | nonzero    | nonzero                   |
 
 | Condition 1| Condition 2| Condition 1 || Condition 2|
-| :----------|:-----------| :-------------------------|
+| :----------| :----------| :-------------------------|
 | 0          | 0          | 0                         |
 | 0          | nonzero    | 1                         | 
 | nonzero    | 0          | 1                         |
 | nonzero    | nonzero    | nonzero                   |
 
 | Condition 1| !Condition 1|
-| :----------|:-----------| 
-| 0          | 1          |
-| nonzero    | 0          | 
+| :----------| :-----------| 
+| 0          | 1           |
+| nonzero    | 0           | 
