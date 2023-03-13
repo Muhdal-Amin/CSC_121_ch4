@@ -47,8 +47,8 @@ Complete the following truth tables by filling in each blank with 0 or 1.
 | Condition 1| Condition 2| Condition 1 \\\ Condition 2|
 | :----------| :----------| :-------------------------|
 | 0          | 0          | 0                         |
-| 0          | nonzero    | 0                         | 
-| nonzero    | 0          | 0                         |
+| 0          | nonzero    | nonzero                   | 
+| nonzero    | 0          | nonzero                   |
 | nonzero    | nonzero    | nonzero                   |
 
 
