@@ -32,14 +32,14 @@ int main(void) {
 
 			if (credit_balance > new_credit_limit) {
 
-				printf("New credit limit is: $%d\n", new_credit_limit);
+				printf("\nNew credit limit is: $%d\n", new_credit_limit);
 				printf("Current credit balance is: $%d and exceeds the new credit limit\n\n", credit_balance);
 
 			} // End if
 
 			else {
 
-				printf("New credit limit is: $%d\n", new_credit_limit);
+				printf("\nNew credit limit is: $%d\n", new_credit_limit);
 				printf("Current customer's balance is: $%d and does not exceed the new credit limit\n\n", credit_balance);
 			} // End else
 
