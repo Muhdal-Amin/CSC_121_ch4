@@ -1,4 +1,4 @@
-// Paul Dietel C-How to program: Chapter4, Exercise 4.19
+// Paul Dietel C-How to progrAam: Chapter4, Exercise 4.19
 // Program control in C
 
 #include <stdio.h>
@@ -31,7 +31,7 @@ int main(void) {
 
 	for (int i = 0; i < 5; i++) {
 
-		printf("%.2d:", number[i]);
+		printf("%2d: ", number[i]);
 
 		for (int j = 0; j < number[i]; j++) {
 

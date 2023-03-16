@@ -13,7 +13,7 @@ int main(void) {
 	int customer_num;
 	for (customer = 1; customer <= 3; customer++) {
 
-		for(customer_num =1; customer_num <= 3; customer++)
+		for(customer_num = 1; customer_num <= 3; customer++)
 		{
 			printf("Enter customer #%d details\n", customer_num++);
 
@@ -33,14 +33,14 @@ int main(void) {
 			if (credit_balance > new_credit_limit) {
 
 				printf("\nNew credit limit is: $%d\n", new_credit_limit);
-				printf("Current credit balance is: $%d and exceeds the new credit limit\n\n", credit_balance);
+				printf("Customer's current credit balance is: $%d and exceeds the new credit limit\n\n", credit_balance);
 
 			} // End if
 
 			else {
 
 				printf("\nNew credit limit is: $%d\n", new_credit_limit);
-				printf("Current customer's balance is: $%d and does not exceed the new credit limit\n\n", credit_balance);
+				printf("Customer's current credit balance is: $%d and does not exceed the new credit limit\n\n", credit_balance);
 			} // End else
 
 		} // End nested for
